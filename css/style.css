@@ -1,0 +1,70 @@
+.container {
+    text-align: center;
+    margin: 0 auto;
+    width: 960px;
+}
+
+
+body {
+    background: #07efc1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+
+.place {
+    background-color: #FFF;
+    border-color: #ccc #999 #999 #ccc ;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.place h2 {
+    border-bottom: 1px dashed #7e9f19;
+    margin: 0;
+}
+
+.place a {
+    color: #2ca79b;
+    font-weight: bold;
+}
+
+h1 a :hover {
+    background-color: #7e9f19;
+    color: #FFF;
+}
+
+.place img {
+    border: 1px solid #7e9f19;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+.sidenote {
+    background: #FFF;
+
+}
+
+@media screen and (max-width: 600px) {
+    /* Estilos para telas menores que 600px */
+    .container, .place, .place img, .place a, .footer, .sidenote {
+        width: 100%;
+    }
+}
+
+   
+
+
+
+
